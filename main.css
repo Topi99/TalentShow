@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body{
+	background-color: rgba(108,41,58,.5)
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 7em;
+	font-weight: normal;
+	color: #FF0041;
+	word-spacing: -.4em;
+	text-shadow: 3px 3px 1px rgba(108,41,58,1);
+	margin-top: -19px;
+}
+
+h2{
+	font-size: 5em;
+	font-family: 'Montserrat', sans-serif;
+	color:rgba(108,41,58,1);
+	text-shadow: 3px 3px 1px #FF0041;
+}
+img{
+	width: 350px;
+}
