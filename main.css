@@ -9,6 +9,7 @@
 }
 a{
 	text-decoration: none;
+	width: 50%;
 }
 ul{
 	list-style: none;
@@ -41,7 +42,7 @@ div{
 #dos{
 	top: 120%;
 	background-color: #7FDB90;
-	height: 85%;
+	height: 95%;
 }
 .pacifico{
 	font-family: 'Pacifico', cursive;
@@ -83,6 +84,9 @@ div{
 }
 .bigger{
 	font-size: 115%;
+}
+.smaller{
+	font-size: 80%;
 }
 .btn{
 	background-color: #E31C4F;
