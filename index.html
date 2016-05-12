@@ -4,10 +4,32 @@
 	<meta charset="UTF-8">
 	<title>Invitación</title>
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="animate.css">
+	<script>
+		var disp = navigator.userAgent.toLowerCase();
+		if(disp.search(/iphone|ipod|android/) > -1){
+			alert("Este sitio Web está optimizado para pantallas grandes, disculpa las molestias");
+		}
+	</script>
 </head>
 <body>
-	<h1>Talent Show</h1>
-	<h2>ARE YOU IN?</h2>
-	<img src="freddie_wink.png" alt="">
+	<div id="uno">
+		<h1 class="animated fadeIn red shadow pacifico">Talent Show</h1>
+		<h2 class="animated fadeIn delay-1 purple shadow">ARE YOU IN?</h2>
+		<img src="freddie_wink.png" class="animated fadeIn delay-2">		
+	</div>
+	<div id="dos">
+		<div class="center">
+			<h2>Informes</h2>
+			<ul class="top-space">
+				<li>Fecha: 20 de Mayo</li>
+				<li>Lugar: CBTis #83</li>
+				<li>Tipo de Talentos: Cualquiera</li>
+				<li>Habrá premios</li>
+				<li class="bigger">¡No te lo pierdas!</li>
+			</ul>
+			<a href="mailto:nokoayzack@gmail.com"><h2 class="top-space btn pacifico">¡Inscribete!</h2></a>
+		</div>
+	</div>
 </body>
 </html>
